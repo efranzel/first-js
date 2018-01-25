@@ -1,0 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font: normal 16px Garamond, Helvetica;
+  margin: 20px;
+}
