@@ -68,3 +68,4 @@ console.log(aboutMe.interests);
 
 alert(number1+number2);
 alert(aboutMe.firstName + ' ' + aboutMe.lastName);
+alert(number1*number2);
