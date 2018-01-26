@@ -29,3 +29,42 @@ console.log(tired);
 var newcareer = ['librarian', 'ESL teacher', 'development officer', 'religious studies teacher']
 console.log(newcareer);
 console.log(newcareer[1]);
+
+//multi-dimensional array
+var meat = ['ham', 'bologna', 'turkey'];
+var fruit = ['oranges', 'apples', 'grapes'];
+var food = [meat, fruit];
+console.log(food);
+console.log(food[1][0]); //logs 'oranges' to the console
+
+// Object: curly brackets indicate object
+var user = {
+  firstName: 'Lucille',
+  age: 40,
+  lastName: 'Bluth',
+  hasHair: true,
+  'has-feet': true
+};
+//access properties of our user object using dot notation
+console.log(user.firstName); //this will log Lucille to the console
+//we can also access properties on objs using bracket notation
+console.log(user['firstName']);
+console.log(user['has-feet']);
+
+var number1 = 51;
+var number2 = 27;
+console.log(number1+number2);
+
+var aboutMe = {
+  firstName: 'Ethan',
+  lastName: 'Franzel',
+  fingerCount: 10,
+  interests: ['music', 'meditation', 'technology']
+};
+console.log(aboutMe.firstName);
+console.log(aboutMe.lastName);
+console.log(aboutMe.fingerCount);
+console.log(aboutMe.interests);
+
+alert(number1+number2);
+alert(aboutMe.firstName + ' ' + aboutMe.lastName);
